@@ -4,7 +4,8 @@ namespace ModBase
 {
 	// Patch model
 	// [HarmonyPatch(typeof(), nameof())]
-	// static class type_method_Patch()
+	// [HarmonyPatch(typeof(), MethodType.)]
+	// static class type_method_Patch
 	// {
 	// 	static void Prefix()
 	// 	{
