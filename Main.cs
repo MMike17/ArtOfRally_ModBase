@@ -18,6 +18,10 @@ namespace ModBase
             Logger = modEntry.Logger;
             settings = ModSettings.Load<Settings>(modEntry);
 
+            // Harmony patching
+            Harmony harmony = new Harmony(modEntry.Info.Id);
+            harmony.PatchAll();
+
             // hook in mod manager event
             modEntry.OnToggle = OnToggle;
             modEntry.OnGUI = (entry) => settings.Draw(entry);
