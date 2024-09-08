@@ -11,6 +11,8 @@
   - [ ] Settings.cs
   - [ ] Patches.cs
 - [ ] Change the name of the mod and dll in the Info.json file
+  - [ ] Add mod homepage to Info.json
+  - [ ] Add mod repository to Info.json
 - [ ] Adjust the readme.md file
   - [ ] Adjust the links in the readme.md file
   - [ ] Fill in the description in the readme.md file
