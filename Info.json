@@ -5,5 +5,7 @@
 	"Version": "1.0.0",
 	"GameVersion": "1.5,5",
 	"AssemblyName": "ModBase.dll",
-	"EntryMethod": "ModBase.Main.Load"
+	"EntryMethod": "ModBase.Main.Load",
+	"HomePage": "<modHomepageLink>",
+	"Repository": "<modRepoLink>"
 }
