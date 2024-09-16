@@ -12,6 +12,8 @@ namespace ModBase
         [Header("Debug")]
         [Draw(DrawType.Toggle)]
         public bool showMarkers;
+        [Draw(DrawType.Toggle)]
+        public bool disableInfoLogs;
 
         public override void Save(ModEntry modEntry) => Save(this, modEntry);
 
