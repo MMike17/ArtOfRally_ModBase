@@ -34,6 +34,7 @@ namespace ModBase
             modEntry.OnGUI = (entry) => settings.Draw(entry);
             modEntry.OnSaveGUI = (entry) => settings.Save(entry);
 
+            markers = new List<GameObject>();
             return true;
         }
 
