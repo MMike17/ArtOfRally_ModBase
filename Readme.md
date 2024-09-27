@@ -33,7 +33,7 @@ Press Ctrl + F10 to open the mod manager menu.\
 Adjust settings to select [...] you want.\
 By default, the mod [...].
 
-"<settingsName>" will [...].
+- **<settingName>** : will [...].
 
 Disabling the mod in the manager will [...] by default.
 
@@ -45,7 +45,7 @@ Disabling the mod in the manager will [...] by default.
 
 Follow the [installation guide](https://www.nexusmods.com/site/mods/21/) of
 the Unity Mod Manager.\
-Then simply download the [latest release](https://www.nexusmods.com/artofrally/mods/<nexusModID>)
+Then simply download the [latest release](https://github.com/MMike17/<modName>/releases/latest)
 and drop it into the mod manager's mods page.
 
 ## Showcase
