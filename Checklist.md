@@ -1,11 +1,10 @@
 # Checklist
 
 - [ ] Rename the solution file
-  - [ ] Change the name of the namespace and dll in the solution file
+  - [ ] Change the name of the namespace and build file in the solution file
 - [ ] Rename the csproj file
-  - [ ] Change the name of the namespace, dll and folder in the csproj file
-  - [ ] Change the paths of the dll references in the csproj file
-  - [ ] Change the paths to the build targets in the csproj file
+  - [ ] Change the name of the namespace in the csproj file
+  - [ ] Change the path to the game folder in the csproj file
 - [ ] Change the namespace name in scripts
   - [ ] Main.cs
   - [ ] Settings.cs
