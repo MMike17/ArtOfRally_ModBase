@@ -7,5 +7,5 @@
 	"AssemblyName": "ModBase.dll",
 	"EntryMethod": "ModBase.Main.Load",
 	"HomePage": "<modHomepageLink>",
-	"Repository": "<modRepoLink>"
+	"Repository": "https://raw.githubusercontent.com/<github username>/<repo name>/<branch>/Repository.json"
 }
