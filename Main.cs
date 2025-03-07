@@ -44,7 +44,11 @@ namespace ModBase
             return true;
         }
 
-        public static void Log(string message) => Logger.Log(message);
+        public static void Log(string message)
+        {
+            if(!settings.disableInfoLogs)
+                Logger.Log(message);
+        }
 
         public static void Error(string message) => Logger.Error(message);
 
