@@ -101,6 +101,10 @@
   <Target Name="CopyDll" AfterTargets="Build">
     <Copy SourceFiles="$(OutputPath)\$(AssemblyName).dll" DestinationFolder="$(GameModPath)" />
   </Target>
+  <!-- Use this line to copy asset bundles from "/Assets" to the mod folder -->
+  <!-- <Target Name="CopyAssets" AfterTargets="Build">
+	<Copy SourceFiles="@(Assets)" DestinationFolder="$(GameModPath)" />
+  </Target> -->
   <Target Name="StartGame" AfterTargets="AfterBuild">
     <Exec Command="&quot;$([System.IO.Path]::Combine($(GamePath), artofrally.exe))&quot;" />
   </Target>
