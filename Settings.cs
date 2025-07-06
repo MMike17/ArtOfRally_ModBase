@@ -21,7 +21,15 @@ namespace ModBase
         {
             Main.SetMarkers(showMarkers);
 
-            //
+            // SnapValue(, 0.1f);
+        }
+
+        private float SnapValue(float value, float snapValue, float range, float snapPercent)
+        {
+            float snapDiff = range * snapPercent;
+            float minTarget = snapValue - snapDiff / 2;
+            float maxTarget = snapValue + snapDiff / 2;
+            return value <= maxTarget && value >= minTarget ? snapValue : value;
         }
     }
 }
