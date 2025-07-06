@@ -60,7 +60,7 @@ namespace ModBase
         public static void Error(string message) => Logger.Error(message);
 
         /// <summary>Use this to log possible execution errors to the console</summary>
-        public static void Try(Action callback)
+        public static void Try(string flag, Action callback)
         {
             try
             {
@@ -68,7 +68,7 @@ namespace ModBase
             }
             catch (Exception e)
             {
-                Error(e.ToString());
+                Error(flag + "\n" + e.ToString());
             }
         }
 
