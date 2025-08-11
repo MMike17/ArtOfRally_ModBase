@@ -24,6 +24,11 @@ namespace ModBase
             // SnapValue(, 0.1f);
         }
 
+        internal void OnGUI ()
+        {
+            // custom GUI here
+        }
+
         private float SnapValue(float value, float snapValue, float range, float snapPercent)
         {
             float snapDiff = range * snapPercent;
