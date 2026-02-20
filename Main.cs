@@ -104,7 +104,7 @@ namespace ModBase
             info.SetValue(source, value);
         }
 
-        /// <summary>BindingFlags.NonPrivate is implicit / source can be null</summary>
+        /// <summary>BindingFlags.NonPublic is implicit / source can be null</summary>
         public static void InvokeMethod<T>(T source, string methodName, BindingFlags flags, object[] args)
         {
             MethodInfo info = typeof(T).GetMethod(methodName, flags | BindingFlags.NonPublic);
